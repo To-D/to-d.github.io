@@ -64,13 +64,14 @@
 }
 
 a {
-  color: #1772d0;
+  color: #f09228;
   text-decoration: none;
 }
 
 a:focus,
 a:hover {
-  color: #f09228;
+  /* color: red; */
+  color: brown;
   text-decoration: none;
 }
 
@@ -107,6 +108,8 @@ h2 {
   margin: 0;
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
   font-size: 32px;
+  font-weight: 900;
+  font-style: italic;
 }
 
 .one {
@@ -132,4 +135,35 @@ h2 {
 
 span.highlight {
   background-color: #ffffd0;
+}
+
+.intro {
+    line-height: 1.4em;
+
+}
+.conf {
+    font-weight: 500;
+    color:#f09228
+}
+.conf-long {
+    color: grey;
+    font-weight: 200;
+    text-decoration-style:dashed;
+}
+.btn {
+    background-color:#f09228;
+    color: white;
+    padding: 0.1em 1em;
+    border-radius: 5%;
+    text-transform: capitalize;
+}
+.paper {
+    background-color:#f09228;
+    color: white;
+    padding: 0.1em 1em;
+    border-radius: 5%;
+    text-transform: capitalize;
+}
+.paper:hover{
+    color: white
 }

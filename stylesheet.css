@@ -203,3 +203,30 @@ li {
     margin-left: 0;
     margin-right: auto;
 }
+.publication-topic {
+    margin: 30px 20px 4px;
+    padding: 11px 16px;
+    border-radius: 10px;
+    background: linear-gradient(90deg, #faf0e3 0%, #fcf8f2 65%, #fff 100%);
+    font-family: 'Lato', Verdana, Helvetica, sans-serif;
+    font-size: 1.1em;
+    font-weight: 700;
+    line-height: 1.4;
+    color: #795b38;
+}
+
+.publication-list {
+    width: 100%;
+    border: 0;
+    border-spacing: 0;
+    border-collapse: separate;
+}
+
+.publication-list td {
+    padding: 20px;
+    vertical-align: middle;
+}
+
+.publication-info {
+    width: 75%;
+}
